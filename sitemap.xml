@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adachi.club/about/site.html</loc>
+    
+    <lastmod>2020-04-22T09:01:11.106Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://adachi.club/about/index.html</loc>
+    
+    <lastmod>2020-04-22T08:59:35.896Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://adachi.club/links/index.html</loc>
+    
+    <lastmod>2020-04-22T08:57:32.733Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://adachi.club/girls/index.html</loc>
+    
+    <lastmod>2020-04-22T08:57:20.385Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://adachi.club/albums/index.html</loc>
+    
+    <lastmod>2020-04-22T08:42:04.400Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://adachi.club/2020/04/06/theme-testing/</loc>
     
     <lastmod>2020-04-21T08:04:34.673Z</lastmod>
@@ -44,16 +79,30 @@
   </url>
   
   <url>
-    <loc>http://adachi.club/about/index.html</loc>
+    <loc>http://adachi.club/albums/daily.html</loc>
     
-    <lastmod>2020-04-20T12:28:51.546Z</lastmod>
+    <lastmod>2020-04-18T08:27:24.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://adachi.club/about/site.html</loc>
+    <loc>http://adachi.club/albums/miracle.html</loc>
     
-    <lastmod>2020-04-14T04:00:51.774Z</lastmod>
+    <lastmod>2020-04-18T08:27:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://adachi.club/albums/sunset.html</loc>
+    
+    <lastmod>2020-04-18T08:27:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://adachi.club/albums/young.html</loc>
+    
+    <lastmod>2020-04-18T08:27:24.000Z</lastmod>
     
   </url>
   
