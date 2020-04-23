@@ -744,6 +744,9 @@ input {
   box-shadow: 0px 2px 10px -1px rgba(0,0,0,0.3);
   color: #fff;
 }
+.hty-button--raised:focus {
+  color: #eee;
+}
 .hty-button--raised:hover {
   color: #fff;
   background-color: rgba(0,120,231,0.9);
@@ -1400,7 +1403,6 @@ caption,
 th,
 td {
   padding: 8px;
-  text-align: left;
   vertical-align: middle;
   font-weight: normal;
 }
@@ -1874,9 +1876,12 @@ td {
   color: #0078e7;
 }
 #comment {
-  margin: 0 1rem;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.75);
+  box-shadow: 0 1px 8px rgba(255,255,255,0.1);
   padding: 1rem;
-  background-color: #fff;
 }
 @media screen and (max-width: 768px) {
   #comment {
