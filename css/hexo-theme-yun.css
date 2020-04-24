@@ -524,9 +524,9 @@ input {
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.5);
   box-shadow: 0 1px 8px rgba(255,255,255,0.1);
-  padding: 1rem 0.5rem;
+  padding: 1rem;
 }
 @media screen and (max-width: 768px) {
   #page,
@@ -628,7 +628,7 @@ input {
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.5);
   box-shadow: 0 1px 8px rgba(255,255,255,0.1);
   padding: 1rem;
 }
@@ -913,7 +913,7 @@ input {
   transition-property: all;
   transition-duration: 0.2s;
   transition-delay: 0s;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.5);
   box-shadow: 0 1px 8px rgba(255,255,255,0.1);
 }
 .post-card:hover {
@@ -1277,6 +1277,9 @@ input {
 .post-markdown strong {
   font-weight: bold;
 }
+.post-markdown summary {
+  outline: none;
+}
 .post-nav {
   display: flex;
   justify-content: space-between;
@@ -1562,7 +1565,7 @@ td {
   bottom: 0;
   left: 0;
   width: 20rem;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.5);
   background-image: url("/data/images/bg_sidebar.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1818,7 +1821,7 @@ td {
 .search-popup {
   background-image: url("/data/images/bg_search.png");
   background-position: bottom center;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.5);
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
@@ -1879,7 +1882,7 @@ td {
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.5);
   box-shadow: 0 1px 8px rgba(255,255,255,0.1);
   padding: 1rem;
 }
