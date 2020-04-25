@@ -126,7 +126,7 @@ body::before {
   height: 100%;
   z-index: -1;
   opacity: 0.8;
-  background-image: url("/data/images/bg.jpg");
+  background-image: url("/data/images/bg0.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
