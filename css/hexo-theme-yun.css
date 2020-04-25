@@ -1676,8 +1676,8 @@ td {
 #site-overview-wrap {
   padding-top: 2rem;
 }
-.site-info.fix-top {
-  margin-top: -1.5rem;
+.site-info {
+  margin-top: 2rem;
 }
 .site-author-avatar {
   display: inline-block;
