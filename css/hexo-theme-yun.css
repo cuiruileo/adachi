@@ -1693,7 +1693,17 @@ td {
 }
 .site-author-avatar img:hover {
   box-shadow: 0 0 30px rgba(0,120,231,0.2);
+  -webkit-transition: -webkit-transform 1s ease-out;
+  -moz-transition: -moz-transform 1s ease-out;
+  transition: transform 1s ease-out;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+*
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
 }
+*
 .site-author-avatar img {
   border-radius: 50%;
 }
