@@ -521,9 +521,12 @@ input {
 #archive,
 #tag,
 #category {
-  margin: 0 1rem 1rem 1rem;
-  background-color: #fff;
-  padding: 1rem 0.5rem;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 1px 8px rgba(255,255,255,0.1);
+  padding: 1rem;
 }
 @media screen and (max-width: 768px) {
   #page,
@@ -622,9 +625,12 @@ input {
   cursor: default;
 }
 .post-block {
-  margin: 0 1rem;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 1px 8px rgba(255,255,255,0.1);
   padding: 1rem;
-  background-color: #fff;
 }
 @media screen and (max-width: 768px) {
   .post-block {
@@ -902,7 +908,7 @@ input {
 }
 .post-card {
   position: relative;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   transition-property: all;
   transition-duration: 0.2s;
@@ -1152,25 +1158,25 @@ input {
   line-height: 1.8;
 }
 .post-markdown h1 {
-  font-size: 2.5em;
+  font-size: 1.8em;
   border-bottom: 1px solid rgba(153,153,153,0.5);
 }
 .post-markdown h2 {
-  font-size: 2.2em;
+  font-size: 1.6em;
   border-bottom: 1px solid rgba(153,153,153,0.5);
 }
 .post-markdown h3 {
-  font-size: 1.9em;
+  font-size: 1.5em;
   border-bottom: 1px dotted rgba(153,153,153,0.5);
 }
 .post-markdown h4 {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 .post-markdown h5 {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 .post-markdown h6 {
-  font-size: 1.03em;
+  font-size: 1em;
 }
 .post-markdown h1,
 .post-markdown h2,
@@ -1277,7 +1283,9 @@ input {
 .post-nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 1rem;
+  position: relative;
+  max-width: 1032px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   .post-nav {
@@ -1557,11 +1565,12 @@ td {
   bottom: 0;
   left: 0;
   width: 20rem;
-  background: #fff;
+  background-color: rgba(255,255,255,0.5);
   background-image: url("/data/images/bg_sidebar.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom 1rem center;
+  box-shadow: 0 1px 8px rgba(255,255,255,0.1);
   text-align: center;
   z-index: 10;
   transition-property: all;
@@ -1667,8 +1676,8 @@ td {
 #site-overview-wrap {
   padding-top: 2rem;
 }
-.site-info.fix-top {
-  margin-top: -1.5rem;
+.site-info {
+  margin-top: 2rem;
 }
 .site-author-avatar {
   display: inline-block;
@@ -1811,7 +1820,8 @@ td {
 }
 .search-popup {
   background-image: url("/data/images/bg_search.png");
-  background-position: center;
+  background-position: bottom center;
+  background-color: rgba(255,255,255,0.5);
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
@@ -1869,9 +1879,12 @@ td {
   color: #0078e7;
 }
 #comment {
-  margin: 0 1rem;
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 1px 8px rgba(255,255,255,0.1);
   padding: 1rem;
-  background-color: #fff;
 }
 @media screen and (max-width: 768px) {
   #comment {

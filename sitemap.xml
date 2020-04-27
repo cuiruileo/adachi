@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://adachi.club/data/css/ui.css</loc>
+    
+    <lastmod>2020-04-27T05:53:10.566Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://adachi.club/data/css/pace.css</loc>
     
-    <lastmod>2020-04-26T09:54:17.830Z</lastmod>
+    <lastmod>2020-04-27T04:43:01.148Z</lastmod>
     
   </url>
   
