@@ -83,3 +83,14 @@ say-content {
 .post-markdown h6 {
   font-size: 1em;
 }
+.post-content>p:first-child::first-letter {
+  float: left;
+  margin-top: 14px;
+  margin-right: 6px;
+  color: #555;
+  font-size: 42px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+mobile()
+}
