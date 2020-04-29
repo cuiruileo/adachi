@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://adachi.club/2020/04/24/girl%202/</loc>
+    <lastmod>2020-04-29</lastmod>
+  </url>  <url>
+    <loc>http://adachi.club/2020/04/24/girl/</loc>
+    <lastmod>2020-04-29</lastmod>
+  </url>  <url>
     <loc>http://adachi.club/2020/04/06/theme-testing/</loc>
     <lastmod>2020-04-25</lastmod>
   </url>  <url>
@@ -15,8 +21,5 @@
   </url>  <url>
     <loc>http://adachi.club/2020/04/24/Ha-Ha/</loc>
     <lastmod>2020-04-25</lastmod>
-  </url>  <url>
-    <loc>http://adachi.club/2020/04/24/girl/</loc>
-    <lastmod>2020-04-24</lastmod>
   </url>
 </urlset>

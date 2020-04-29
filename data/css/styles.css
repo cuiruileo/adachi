@@ -23,7 +23,7 @@
 .notice {
   max-width: calc(1000px - 2rem);
 }
-say-content {
+#say-content {
   position: relative;
   max-width: 950px;
   margin: 0 auto;

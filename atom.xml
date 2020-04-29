@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://adachi.club/"/>
-  <updated>2020-04-24T12:08:45.646Z</updated>
+  <updated>2020-04-29T03:35:57.057Z</updated>
   <id>http://adachi.club/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>girl</title>
-    <link href="http://adachi.club/2020/04/24/girl/"/>
-    <id>http://adachi.club/2020/04/24/girl/</id>
+    <title>girl 2</title>
+    <link href="http://adachi.club/2020/04/24/girl%202/"/>
+    <id>http://adachi.club/2020/04/24/girl%202/</id>
     <published>2020-04-24T11:57:52.000Z</published>
-    <updated>2020-04-24T12:08:45.646Z</updated>
+    <updated>2020-04-29T03:35:57.057Z</updated>
     
     <content type="html"><![CDATA[<p>More testing</p>]]></content>
     
@@ -36,6 +36,61 @@
     </summary>
     
     
+    
+      <category term="H2" scheme="http://adachi.club/tags/H2/"/>
+    
+      <category term="タッチ" scheme="http://adachi.club/tags/%E3%82%BF%E3%83%83%E3%83%81/"/>
+    
+      <category term="MIX" scheme="http://adachi.club/tags/MIX/"/>
+    
+      <category term="クロスゲーム" scheme="http://adachi.club/tags/%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B2%E3%83%BC%E3%83%A0/"/>
+    
+      <category term="KATSU!" scheme="http://adachi.club/tags/KATSU/"/>
+    
+      <category term="ラフ" scheme="http://adachi.club/tags/%E3%83%A9%E3%83%95/"/>
+    
+      <category term="みゆき" scheme="http://adachi.club/tags/%E3%81%BF%E3%82%86%E3%81%8D/"/>
+    
+      <category term="虹色とうがらし" scheme="http://adachi.club/tags/%E8%99%B9%E8%89%B2%E3%81%A8%E3%81%86%E3%81%8C%E3%82%89%E3%81%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>girl</title>
+    <link href="http://adachi.club/2020/04/24/girl/"/>
+    <id>http://adachi.club/2020/04/24/girl/</id>
+    <published>2020-04-24T11:57:52.000Z</published>
+    <updated>2020-04-29T03:35:48.645Z</updated>
+    
+    <content type="html"><![CDATA[<p>More testing</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;More testing&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="スローステップ" scheme="http://adachi.club/tags/%E3%82%B9%E3%83%AD%E3%83%BC%E3%82%B9%E3%83%86%E3%83%83%E3%83%97/"/>
+    
+      <category term="QあんどA" scheme="http://adachi.club/tags/Q%E3%81%82%E3%82%93%E3%81%A9A/"/>
+    
+      <category term="陽あたり良好!" scheme="http://adachi.club/tags/%E9%99%BD%E3%81%82%E3%81%9F%E3%82%8A%E8%89%AF%E5%A5%BD/"/>
+    
+      <category term="いつも美空" scheme="http://adachi.club/tags/%E3%81%84%E3%81%A4%E3%82%82%E7%BE%8E%E7%A9%BA/"/>
+    
+      <category term="ナイン" scheme="http://adachi.club/tags/%E3%83%8A%E3%82%A4%E3%83%B3/"/>
+    
+      <category term="ショートプログラム" scheme="http://adachi.club/tags/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/"/>
+    
+      <category term="冒険少年" scheme="http://adachi.club/tags/%E5%86%92%E9%99%BA%E5%B0%91%E5%B9%B4/"/>
+    
+      <category term="じんべえ" scheme="http://adachi.club/tags/%E3%81%98%E3%82%93%E3%81%B9%E3%81%88/"/>
     
   </entry>
   
@@ -81,9 +136,9 @@
       <category term="Testing" scheme="http://adachi.club/categories/Testing/"/>
     
     
-      <category term="ラフ" scheme="http://adachi.club/tags/%E3%83%A9%E3%83%95/"/>
-    
       <category term="タッチ" scheme="http://adachi.club/tags/%E3%82%BF%E3%83%83%E3%83%81/"/>
+    
+      <category term="ラフ" scheme="http://adachi.club/tags/%E3%83%A9%E3%83%95/"/>
     
   </entry>
   
