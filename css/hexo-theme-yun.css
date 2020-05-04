@@ -181,7 +181,7 @@ a:hover {
 input {
   cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur"), auto;
 }
-.banner {
+#banner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -240,6 +240,7 @@ input {
   animation-timing-function: ease-out;
 }
 .cloud {
+  display: flex;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -249,8 +250,8 @@ input {
   box-sizing: border-box;
 }
 .cloud .waves {
-  position: relative;
   display: flex;
+  position: relative;
   width: 100%;
   height: 100px;
 }
@@ -1272,7 +1273,7 @@ input {
 .post-markdown pre,
 .post-markdown code {
   overflow: auto;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: 'Courier New', Courier, Consolas, Monaco, monospace !important;
   font-size: 0.85rem;
   line-height: 1.6;
   border-radius: 3px;
