@@ -1,6 +1,27 @@
 .sidebar {
   background-color: rgba(255,255,255,0.75);
   box-shadow: 0 1px 8px rgba(255,255,255,0.1);
+  left: -20rem;
+  transform: translateX(0);
+  visibility: hidden;
+}
+.sidebar-toggle {
+  display: flex;
+}
+.sidebar-translate {
+  padding-left: 0;
+}
+.sidebar-open .sidebar {
+  transform: translateX(20rem);
+  visibility: visible;
+}
+.sidebar-open .sidebar-translate {
+  padding-left: 20rem;
+}
+@media screen and (max-width: 768px) {
+  .sidebar-open .sidebar-translate {
+    padding-left: 0;
+  }
 }
 .site-author-avatar img:hover {
   -webkit-transition: -webkit-transform 1s ease-out;
@@ -19,6 +40,92 @@
 }
 .site-info.fix-top {
   margin-top: 0rem;
+}
+.sidebar-content {
+  position: relative;
+  padding: 0 2rem;
+}
+.sidebar-content .year-link {
+  line-height: 1.8;
+  display: inline-block;
+  margin: 0;
+  padding: 0 2px 5px 10px;
+  border-bottom: none;
+}
+.sidebar-content .year-count {
+  margin-left: 2px;
+  font-size: 75%;
+  vertical-align: super;
+  color: $grey;
+}
+.sidebar-content .month-list {
+  line-height: 1.8;
+  list-style: none;
+  margin: 0;
+  padding: 0 2px 5px 10px;
+  text-align: left;
+}
+.sidebar-content .month-list-link {
+  border-bottom: none;
+}
+.sidebar-content .month-list-count {
+  padding-right: 2rem;
+  position: absolute;
+  right: 10px;
+  color: $grey;
+}
+.sidebar-content .month-list-count::before {
+  content: '( ';
+  display: inline;
+}
+.sidebar-content .month-list-count::after {
+  content: ' )';
+  display: inline;
+}
+.sidebar-content .category-list {
+  line-height: 1.8;
+  list-style: none;
+  margin: 0;
+  padding: 0 2px 5px 10px;
+  text-align: left;
+}
+.sidebar-content .category-list-link {
+  border-bottom: none;
+}
+.sidebar-content .category-list-count {
+  padding-right: 2rem;
+  position: absolute;
+  right: 10px;
+  color: $grey;
+}
+.sidebar-content .category-list-count::before {
+  content: '[ ';
+  display: inline;
+}
+.sidebar-content .category-list-count::after {
+  content: ' ]';
+  display: inline;
+}
+.sidebar-content .category-list-child {
+  list-style: none;
+  padding-left: 10px;
+}
+.sidebar-content .tag-link {
+  line-height: 1.8;
+  display: inline-block;
+  margin: 0;
+  padding: 0 2px 5px 10px;
+  border-bottom: none;
+}
+.sidebar-content .tag-link::before {
+  content: '#';
+  margin-right: 1px;
+}
+.sidebar-content .tag-count {
+  margin-left: 2px;
+  font-size: 75%;
+  vertical-align: super;
+  color: $grey;
 }
 .notice {
   max-width: calc(1000px - 2rem);

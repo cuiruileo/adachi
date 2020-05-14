@@ -711,6 +711,21 @@ input {
 .category-lists .category-list-count::after {
   content: ' ] ';
 }
+#wordcloud {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#wordcloud #wordcloud-canvas {
+  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), pointer;
+}
+#wordcloud #wordbox {
+  pointer-events: none;
+  position: absolute;
+  box-shadow: 0 0 100px 100px rgba(0,0,0,0.1);
+  border-radius: 50px;
+}
 .page-number-basic,
 .pagination .space,
 .pagination .prev,
@@ -1633,6 +1648,7 @@ td {
 }
 .post-toc ol .toc-item.active>.toc-link {
   color: #f2711c;
+  border-bottom: 1px solid #f2711c;
 }
 .post-toc ol .toc-item.active>.toc-child {
   max-height: 1000px;
