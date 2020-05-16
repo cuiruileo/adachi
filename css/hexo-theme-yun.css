@@ -126,7 +126,7 @@ body::before {
   height: 100%;
   z-index: -1;
   opacity: 0.8;
-  background-image: url("https://cdn.jsdelivr.net/gh/cuiruileo/cdn/images/bg.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/cuiruileo/cdn/img/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1661,7 +1661,7 @@ td {
   left: 0;
   width: 20rem;
   background: #fff;
-  background-image: url("https://cdn.jsdelivr.net/gh/cuiruileo/cdn/images/bg_sidebar.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/cuiruileo/cdn/img/bg_sidebar.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom 1rem center;
@@ -1913,7 +1913,7 @@ td {
   text-decoration: underline;
 }
 .search-popup {
-  background-image: url("https://cdn.jsdelivr.net/gh/cuiruileo/cdn/images/bg_search.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/cuiruileo/cdn/img/bg_search.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
