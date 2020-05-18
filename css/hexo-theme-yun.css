@@ -706,20 +706,25 @@ input {
 .category-lists .category-list-count::after {
   content: ' ] ';
 }
-#wordcloud {
+.wordcloud {
   position: relative;
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-#wordcloud #wordcloud-canvas {
+.wordcloud #wordcloud-canvas,
+.wordcloud #wordcloud-sidebar-canvas {
   cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), pointer;
 }
-#wordcloud #wordbox {
+.wordcloud #wordbox {
   pointer-events: none;
   position: absolute;
   box-shadow: 0 0 100px 100px rgba(0,0,0,0.1);
   border-radius: 50px;
+}
+.wordcloud #wordbox-sidebar {
+  pointer-events: none;
+  position: absolute;
 }
 .page-number-basic,
 .pagination .space,
@@ -1477,6 +1482,9 @@ input {
 #qr .icon {
   width: 1.5rem;
   height: 1.5rem;
+}
+.table-container {
+  overflow: auto;
 }
 table {
   width: 100%;
