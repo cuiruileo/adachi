@@ -162,6 +162,16 @@
 .post-body {
   padding: 0 3rem;
 }
+@media screen and (max-width: 1024px) {
+  .post-body {
+    padding: 0 0.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .post-body {
+    padding: 0 0.5rem;
+  }
+}
 #page,
 #archive,
 #tag,
