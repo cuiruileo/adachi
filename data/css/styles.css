@@ -160,7 +160,7 @@
   box-shadow: 0 1px 8px rgba(255,255,255,0.1);
 }
 .post-body {
-  padding: 0 3rem;
+  padding: 0 1.5rem;
 }
 @media screen and (max-width: 1024px) {
   .post-body {
@@ -189,19 +189,6 @@
   margin: 0 auto;
   background-color: rgba(255,255,255,0.75);
   box-shadow: 0 1px 8px rgba(255,255,255,0.1);
-}
-.comment-container {
-  padding: 0 2rem;
-}
-@media screen and (max-width: 1024px) {
-  .comment-container {
-    padding: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  .comment-container {
-    padding: 0;
-  }
 }
 .search-popup {
   background-position: bottom center;
